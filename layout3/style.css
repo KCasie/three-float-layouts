@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header, footer, main, section {
+    border: 1px solid gray;
+}
+
+main, section {
+    height: 60vh;
+    float: left;
+}
+
+header, footer {
+    height: 20vh;
+    clear: both;
+}
+
+main {
+    width: 40%;
+}
+
+section {
+    width: 20%;
+}

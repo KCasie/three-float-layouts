@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header, footer, article, aside, section {
+    border: 1px solid gray;
+}
+
+header, footer {
+    height: 20vh;
+    clear: both;
+}
+
+article, aside, section {
+    float: left;
+}
+
+aside, section {
+    height: 35vh;
+}
+
+article {
+    height: 25vh;
+    width: 100%;
+}
+
+aside {
+    width: 35%;
+}
+
+section {
+    width: 65%;
+}
